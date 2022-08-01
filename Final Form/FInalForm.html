@@ -1,0 +1,827 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/d58e49b8e9.js" crossorigin="anonymous"></script>
+    <!-- For AOS transformations -->
+    <link rel="stylesheet" href="bower_components/aos/dist/aos.css">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <!--Custom CSS-->
+    <link href="FinalForm.css" rel="stylesheet">
+    <title>Checkout</title>
+</head>
+
+<body>
+    <div class="BackImage">
+        <h1 style="color: white; text-align: center; padding-top: 40px">
+            RESERVATION
+        </h1>
+        <div class="row justify-content-center" style="padding: 20px">
+            <div data-tilt data-tilt-max="20" data-tilt-speed="400" data-tilt-perspective="500" class="col-md-3"
+                style="background-color: rgb(204, 116, 116); margin: 20px; padding: 20px; border-radius: 12px">
+                <h3>Your itinerary</h3>
+                <h6 style="font-weight: bold">PICK UP</h6>
+                <p>1248 W Gray St, Houston, TX 77019, USA
+                </p>
+                <p>July 15, 2022 14:48
+                </p>
+                <h6 style="font-weight: bold">Drop Date</h6>
+                <p>1248 W Gray St, Houston, TX 77019, USA
+                </p>
+                <p>August 16, 2022 00:00
+                </p>
+            </div>
+            <div data-tilt data-tilt-max="20" data-tilt-speed="400" data-tilt-perspective="500" class="col-md-3" style="background-color: #fff; margin: 20px; padding: 20px; border-radius: 12px">
+                <h3>Select Vehicles</h3>
+                <h6 style="font-weight: bold">Type</h6>
+                <p>--</p>
+                <h6 style="font-weight: bold">Add Ons</h6>
+                <p>--</p>
+            </div>
+            <div data-tilt data-tilt-max="20" data-tilt-speed="400" data-tilt-perspective="500" class="col-md-3" style="background-color: #fff; margin: 20px; padding: 20px; border-radius: 12px">
+                <h3>Reserve You Vehicle</h3>
+                <h6 style="font-weight: bold">Your Information</h6>
+                <p>--</p>
+                <h6 style="font-weight: bold">Payment Information</h6>
+                <p>--</p>
+            </div>
+        </div>
+    </div>
+    <div class="row  bg">
+        <h1 class="text-center my-3" style="color: #fff;font-size: 50px;">Checkout</h1>
+        <div data-aos="fade-right" class="detail col-md-5 text-center">
+            <div
+              style="
+                background-color: #ffffff;
+                padding: 40px;
+                border-radius: 14px;
+                margin: 9px 29px;
+              "
+            >
+              <h3>Lamborghini Gallardo</h3>
+              <img
+                src="https://i.pinimg.com/originals/c5/72/90/c57290d0f0d7c7eed5c8844ca2de7bc9.jpg"
+                style="height: 200px; width: 70%; border-radius: 20px;"
+              />
+              <h3 style="margin: 10px">RATE</h3>
+              <!-- <div
+                style="
+                  flex-direction: column;
+                  justify-content: space-between;
+                  display: flex;
+                "
+              >
+                <div
+                  style="
+                    background-color: rgb(207, 207, 207);
+                    flex-direction: row;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 10px;
+                    margin-bottom: 5px;
+                  "
+                >
+                  <p>Quality</p>
+                  <p>Rate</p>
+                  <p>SubTotal</p>
+                </div>
+                <div
+                  style="
+                    background-color: rgb(207, 207, 207);
+                    flex-direction: row;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 10px;
+                    margin-bottom: 5px;
+                  "
+                >
+                  <p>2 Days</p>
+                  <p>$180</p>
+                  <p>$180</p>
+                </div> -->
+                <div>
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th scope="col">Quality</th>
+                      <th scope="col">Rate</th>
+                      <th scope="col">SubTotal</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>2 Days</td>
+                      <td>$180</td>
+                      <td>$180</td>
+                    </tr>
+                    <tr>
+                      <td>Rental Charges Rate</td>
+                      <td></td>
+                      <td>$20</td>
+                    </tr>
+                  </tbody>
+                </table>
+                </div>
+  
+                <!-- <div
+                  style="
+                    background-color: rgb(207, 207, 207);
+                    flex-direction: row;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 10px;
+                    margin-bottom: 5px;
+                  "
+                >
+                  <p>Rental Charges Rate</p>
+                  <p>$20</p>
+                </div> -->
+              
+              <h3 style="margin-top: 20px">ADD-ONS</h3>
+              <!-- Start -->
+              <div>
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th scope="col">Quality</th>
+                        <th scope="col">Rate</th>
+                        <th scope="col">SubTotal</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Driver 1</td>
+                        <td>$30</td>
+                        <td>$30</td>
+                      </tr>
+                      <tr>
+                        <td>Driver 2</td>
+                        <td>$40</td>
+                        <td>$40</td>
+                      </tr>
+                      <tr>
+                        <td>Post Trip Cleaning</td>
+                        <td>$50</td>
+                        <td>$50</td>
+                      </tr>
+                      <tr>
+                        <td>Prepaid Refuel</td>
+                        <td>$60</td>
+                        <td>$60</td>
+                      </tr>
+                        <td>Addon Ones Charges Rate</td>
+                        <td></td>
+                        <td>$60</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              <!-- END -->
+              <!-- <div
+                style="
+                  flex-direction: column;
+                  justify-content: space-between;
+                  display: flex;
+                "
+              >
+                <div
+                  style="
+                    background-color: rgb(207, 207, 207);
+                    flex-direction: row;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 10px;
+                    margin-bottom: 5px;
+                  "
+                >
+                  <p>Quality</p>
+                  <p>Rate</p>
+                  <p>SubTotal</p>
+                </div>
+  
+                <div
+                  style="
+                    background-color: rgb(207, 207, 207);
+                    flex-direction: row;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 10px;
+                    margin-bottom: 5px;
+                  "
+                >
+                  <p>Driver 1</p>
+                  <p>$30</p>
+                  <p>$30</p>
+                </div>
+                <div
+                  style="
+                    background-color: rgb(207, 207, 207);
+                    flex-direction: row;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 10px;
+                    margin-bottom: 5px;
+                  "
+                >
+                  <p>Driver 2</p>
+                  <p>$40</p>
+                  <p>$40</p>
+                </div>
+  
+                <div
+                  style="
+                    background-color: rgb(207, 207, 207);
+                    flex-direction: row;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 10px;
+                    margin-bottom: 5px;
+                  "
+                >
+                  <p>POST TRIP CLEANING</p>
+                  <p>$50</p>
+                  <p>$50</p>
+                </div>
+                <div
+                  style="
+                    background-color: rgb(207, 207, 207);
+                    flex-direction: row;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 10px;
+                    margin-bottom: 5px;
+                  "
+                >
+                  <p>PREPAID REFUEL</p>
+                  <p>$60</p>
+                  <p>$60</p>
+                </div>
+                <div
+                  style="
+                    background-color: rgb(207, 207, 207);
+                    flex-direction: row;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 10px;
+                    margin-bottom: 5px;
+                  "
+                >
+                  <p>Add-ons Charges Rate</p>
+                  <p>$800</p>
+                </div>
+              </div> -->
+  
+              <div
+                style="
+                  flex-direction: column;
+                  justify-content: space-between;
+                  display: flex;
+                "
+              >
+                <h3 style="margin-top: 20px">TAXES & FEES</h3>
+                <!-- Start  -->
+                <div>
+                  <table class="table table-striped">
+                    <tbody>
+                      <tr>
+                        <td>Tax</td>
+                        <td></td>
+                        <td>$200</td>
+                      </tr>
+                      <tr>
+                        <td>Admin Fee</td>
+                        <td></td>
+                        <td>$50</td>
+                      </tr>
+                      <tr>
+                        <td>Pickup Charges</td>
+                        <td></td>
+                        <td>$50</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!-- End -->
+  
+                <div
+                  style="
+                    background-color: rgb(207, 207, 207);
+                    flex-direction: row;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 10px;
+                    margin-bottom: 5px;
+                  "
+                >
+                  <!-- <p>Tax</p>
+                  <p>$200</p>
+                </div>
+                <div
+                  style="
+                    background-color: rgb(207, 207, 207);
+                    flex-direction: row;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 10px;
+                    margin-bottom: 5px;
+                  "
+                >
+                  <p>Admin Fee</p>
+                  <p>$50</p>
+                </div>
+                <div
+                  style="
+                    background-color: rgb(207, 207, 207);
+                    flex-direction: row;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 10px;
+                    margin-bottom: 5px;
+                  "
+                >
+                  <p>Pickup Charges</p>
+                </div>
+              </div>  -->
+  
+              <!-- <div
+                style="
+                  background-color: rgb(207, 207, 207);
+                  flex-direction: row;
+                  display: flex;
+                  justify-content: space-between;
+                  padding: 30px;
+                  margin-bottom: 5px;
+                "
+              > -->
+                <p>Estimated total</p>
+                <p>$1200</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div style="background-color: #eee" class="col-md-6">
+            <div style="padding: 30px" class="row">
+                <h4>Lamborghini Gallardo</h4>
+                <img src="https://i.pinimg.com/originals/c5/72/90/c57290d0f0d7c7eed5c8844ca2de7bc9.jpg"
+                    style=" height: 300px; width: 100%; padding-top: 20px; background-size: cover; border-radius: 10px;" />
+                <h4 style="
+                font-weight: bold;
+                margin-bottom: 20px;
+                margin-top: 20px
+              ">
+                    RATE
+                </h4>
+                <div style="
+                background-color: #fff;
+                flex-direction: row;
+                display: flex;
+                justify-content: space-between;
+                padding: 10px;
+                margin-bottom: 5px;
+                margin: 20px;
+                border-radius: 8px
+              ">
+                    <p style=" font-weight: bold ">Quantity</p>
+                    <p style=" font-weight: bold ">Rate</p>
+                    <p style=" font-weight: bold ">Sub-Total</p>
+                </div>
+
+                <div style="
+                background-color: #fff;
+                flex-direction: row;
+                display: flex;
+                justify-content: space-between;
+                padding: 10px;
+                margin-bottom: 5px;
+                margin: 20px;
+                border-radius: 8px
+              ">
+                    <p>5 Days</p>
+                    <p>$500</p>
+                    <p>$500</p>
+                </div>
+
+                <div style="
+                background-color: #fff;
+                flex-direction: row;
+                display: flex;
+                justify-content: space-between;
+                padding: 10px;
+                margin-bottom: 5px;
+                margin: 20px;
+                border-radius: 8px
+              ">
+                    <p>Rental Charges Rate</p>
+                    <p>$500</p>
+                </div>
+                <h4 style="
+                font-weight: bold;
+                margin-bottom: 20px;
+                margin-top: 20px
+              ">
+                    ADD-ONS
+                </h4>
+
+                <div style="
+                flex-direction: column;
+                justify-content: space-between;
+                display: flex;
+              ">
+                    <div
+                        style="background-color: #fff; flex-direction: row; display: flex; justify-content: space-between; padding: 10px; margin-bottom: 5px; margin: 20px">
+                        <p style="font-weight: bold">Add-Ons</p>
+                        <p style="font-weight: bold">Rate</p>
+                        <p style="font-weight: bold">Total</p>
+                    </div>
+
+                    <div style="
+                  background-color: #fff;
+                  flex-direction: row;
+                  display: flex;
+                  justify-content: space-between;
+                  padding: 10px;
+                  margin-bottom: 5px;
+                  margin: 20px
+
+                ">
+                        <p style="font-weight: 'bold'">Driver 1</p>
+                        <p>$50</p>
+                        <p>$50</p>
+                    </div>
+                    <div style="
+                  background-color: #fff;
+                  flex-direction: row;
+                  display: flex;
+                  justify-content: space-between;
+                  padding: 10px;
+                  margin-bottom: 5px;
+                  margin: 20px
+
+                ">
+                        <p style="font-weight: 'bold'">Driver 2</p>
+                        <p>$50</p>
+                        <p>$50</p>
+                    </div>
+
+                    <div style="
+                  background-color: #fff;
+                  flex-direction: row;
+                  display: flex;
+                  justify-content: space-between;
+                  padding: 10px;
+                  margin-bottom: 5px;
+                  margin: 20px
+
+                ">
+                        <p style="font-weight: 'bold'">POST TRIP CLEANING</p>
+                        <p>$50</p>
+                        <p>$50</p>
+                    </div>
+                    <div style="
+                  background-color: #fff;
+                  flex-direction: row;
+                  display: flex;
+                  justify-content: space-between;
+                  padding: 10px;
+                  margin-bottom: 5px;
+                  margin: 20px
+
+                ">
+                        <p style="font-weight: 'bold'">PREPAID REFUEL</p>
+                        <p>$30</p>
+                        <p>$50</p>
+                    </div>
+                    <div style="
+                  background-color: #fff; flex-direction: row ; display: flex ; justify-content: space-between
+                        ; padding: 10px ; margin-bottom: 5px ; margin: 20px">
+                        <p style=" font-weight: 'bold'">Add-ons Charges Rate</p>
+                        <p>$1100</p>
+                    </div>
+
+                </div>
+            </div>
+            <div style=" flex-direction: column ; justify-content: space-between ; display: flex">
+                <div class=" row">
+                    <div class="col-md-12" style="padding: 40px;">
+                        <h4 style="
+                      font-weight: bold; margin:20px ">
+                            TAXES & FEES
+                        </h4>
+                        <div class=" row" style="
+                      background-color: white; padding: 10px ; margin: 10px">
+                            <div class=" col-md-6">
+                                <p style="font-weight: 'bold'">Tax</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p>$180 </p>
+                            </div>
+                        </div>
+                        <div class="row" style="
+                      background-color: white; padding: 10px ; margin: 10px">
+                            <div class=" col-md-6">
+                                <p style="font-weight: 'bold'">Admin Fee</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p>$20</p>
+                            </div>
+                        </div>
+                        <div class="row" style="
+                      background-color: white; padding: 10px ; margin: 10px">
+                            <div class=" col-md-6">
+                                <p style="font-weight: 'bold'">Pickup Charges</p>
+                            </div>
+                            <div class="col-md-6">$100</div>
+                        </div>
+                        <div class="row" style="
+                    background-color: white; padding: 10px ; margin: 10px">
+                            <div class=" col-md-6">
+                                <p style="font-weight: 'bold'">Estimated total</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p>$2200</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div> -->
+        <div data-aos="fade-left" class="col-md-6 my-2" style=" background-color: #ffffff; padding: 70px; margin: 55px;border-radius: 20px;">
+            <h4 class="text-center" style=" font-weight: bold; margin-bottom: 20px">
+                DRIVER DETAILS
+            </h4>
+            <div class=" row">
+                <div class="col-md-6">
+                    <p>FIRST NAME *</p>
+                    <input type="text" class="form-control" id="FIRST" />
+                </div>
+                <div class="col-md-6">
+                    <p>LAST NAME *</p>
+                    <input type="text" class="form-control" id="LAST" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h4 style=" font-weight: bold; margin-bottom: 20px; margin-top: 20px;">COUNTRY / REGION United States (US)</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="my-2">STREET ADDRESS *</div>
+                    <input type="text" class="form-control" style="width: 100%" id=" STREET" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="my-2">TOWN / CITY *</div>
+                    <input type="text" class="form-control" style=" width: 100% " id=" CITY" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="my-2">STATE *</div>
+                    <select class="form-control" id="STATE" value={data.STATE}>
+                        <option value="1248 W Gray St, Houston, TX 77019, USA">
+                            1248 W Gray St, Houston, TX 77019, USA
+                        </option>
+                        <option value="1248 W Gray St, Houston, TX 77019, USA">
+                            1248 W Gray St, Houston, TX 77019, USA
+                        </option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="my-2">PHONE *</div>
+                    <input type="text" class="form-control" style=" width: 100%" id=" PHONE" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="my-2"> EMAIL ADDRESS *</div>
+                    <input type="text" class="form-control" style="width: 100%" id=" EMAIL" />
+                </div>
+            </div>
+
+            <div style=" margin-top: 20 ">
+                <h4 class="text-center" style=" font-weight: bold; margin-bottom: 20px; margin-top: 20px;">
+                    DRIVER INFORMATION
+                </h4>
+            </div>
+            <div class=" row">
+                <div class="col-md-12">
+                    <div class="my-2">DRIVING LICENSE* (REQUIRED) </div>
+                    <input type="text" class="form-control" style="width: 100% " id=" LICENSE" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="my-2">EXPIRY DATE* (REQUIRED)</p>
+                    <input type="datetime-local" id="EXPIRY" style=" width: 100%" />
+                </div>
+                <div class="col-md-6">
+                    <p class="my-2">DATE OF BIRTH* (REQUIRED)</p>
+                    <input type="datetime-local" id="BIRTH" style=" width: 100%" />
+                </div>
+            </div>
+            <div>
+                <h4 class="text-center" style="
+                font-weight: bold; margin-bottom: 20px ; margin-top: 20px">
+                    INSURANCE INFORMATION
+                </h4>
+                <div class=" row">
+                    <div class="col-md-6">
+                        <p class="my-2">EXPIRY DATE* (REQUIRED)</p>
+                        <input type="text" class="form-control" id="INSURANCEBIRTH" />
+                    </div>
+                    <div class="col-md-6">
+                        <p class="my-2">DATE OF BIRTH* (REQUIRED)</p>
+                        <input type="text" class="form-control" id="INSURANCEBIRTHD" />
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h4 class="text-center" style="
+                font-weight: bold; margin-bottom: 20px; margin-top: 20px ">
+                    ADDITIONAL DRIVER
+                </h4>
+                <h5>Driver 1</h5>
+                <div class=" row">
+                    <div class="col-md-6">
+                        <p class="my-2">EXPIRY DATE* (REQUIRED)</p>
+                        <input type="text" class="form-control" id="ADDITIONALDRIVEREXPIRY" />
+                    </div>
+                    <div class="col-md-6">
+                        <p class="my-2">DATE OF BIRTH* (REQUIRED)</p>
+                        <input type="text" class="form-control" id="ADDITIONALDRIVERBIRTH" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <label class="my-2">MAILING ADDRESS </label>
+                        <input type="text" class="form-control" style=" width: 100%" id=" MAILING" />
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="my-2">CITY</p>
+                        <input type="text" class="form-control" id="CITYDRIVER" />
+                    </div>
+                    <div class="col-md-6">
+                        <p class="my-2">STATE/ZIP</p>
+                        <input type="text" class="form-control" id="STATEDRIVER" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="my-2">PHONE</p>
+                        <input type="text" class="form-control" id="PHONEDRIVER" />
+                    </div>
+                    <div class="col-md-6">
+                        <p class="my-2">EMAIL ADDRESS</p>
+                        <input type="text" class="form-control" id="EMAILDRIVER" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="my-2">DRIVING LICENSE</p>
+                        <input type="text" class="form-control" id="LICENSEDRIVER" />
+                    </div>
+                    <div class="col-md-6">
+                        <p class="my-2">STATE</p>
+                        <input type="text" class="form-control" id="STATEDRIVER" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="my-2">EXPIRY DATE</p>
+                        <input type="text" class="form-control" id="EXPIRYDRIVER" />
+                    </div>
+                    <div class="col-md-6">
+                        <p class="my-2">DATE OF BIRTH</p>
+                        <input type="text" class="form-control" id="BIRTHDRIVER" />
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h5  style=" margin-top: 20px">Driver 2</h5>
+                <div class=" row">
+                    <div class="col-md-6">
+                        <p class="my-2">EXPIRY DATE* (REQUIRED)</p>
+                        <input type="text" class="form-control" id="EXPIRYDATEDRIVER" />
+                    </div>
+                    <div class="col-md-6">
+                        <p class="my-2">DATE OF BIRTH* (REQUIRED)</p>
+                        <input type="text" class="form-control" id="DATEOFBIRTHDRIVER" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <label class="my-2">MAILING ADDRESS </label>
+                        <input type="text" class="form-control" style=" width: 100% " id=" MAILINGADDRESSDRIVER" />
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="my-2">CITY</p>
+                        <input type="text" class="form-control" id="CITYDRIVER" />
+                    </div>
+                    <div class="col-md-6">
+                        <p class="my-2">STATE/ZIP</p>
+                        <input type="text" class="form-control" id="STATEZIPDRIVER" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="my-2">PHONE</p>
+                        <input type="text" class="form-control" id="PHONEADDDRIVER" />
+                    </div>
+                    <div class="col-md-6">
+                        <p class="my-2">EMAIL ADDRESS</p>
+                        <input type="text" class="form-control" id="EMAILADDDRIVER" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="my-2">DRIVING LICENSE</p>
+                        <input type="text" class="form-control" id="DRIVINGLICENSEDRIVER" />
+                    </div>
+                    <div class="col-md-6">
+                        <p class="my-2">STATE</p>
+                        <input type="text" class="form-control" id="STATELICENSEDRIVER" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="my-2">EXPIRY DATE</p>
+                        <input type="text" class="form-control" id="MoreExpiryDate" />
+                    </div>
+                    <div class="col-md-6">
+                        <p class="my-2">DATE OF BIRTH</p>
+                        <input type="text" class="form-control" id="MoreBirthDate" />
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 my-2">
+                    CHOOSE YOUR PICKUP LOCATION
+
+                    <select class="form-control">
+                        <option value="1248 W Gray St, Houston, TX 77019, USA">
+                            1248 W Gray St, Houston, TX 77019, USA{" "}
+                        </option>
+                        <option value="1248 W Gray St, Houston, TX 77019, USA">
+                            1248 W Gray St, Houston, TX 77019, USA{" "}
+                        </option>
+                    </select>
+                </div>
+            </div>
+            <div class="row" style=" margin:  20px ">
+                <div class=" col-md-1 my-2">
+                    <input type="checkbox" id="agree" onChange={checkboxHandler} />
+                </div>
+                <div class="col-md-8 my-2">
+                    <label htmlFor="agree">
+                        I Agree to <a href="">Terms and Conditions</a>
+                    </label>
+                </div>
+            </div>
+            <div style=" border-bottom-color: red; border-bottom-width: 1px">
+                <button style="margin-left:138px;" disabled={!agree} onClick={submit} type=" button" class="btn btn-danger btn-lg mt-5">
+                    Confirm Location Charges
+                </button>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- For tilt -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.babel.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.babel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+
+    <!-- For AOS tranformation -->
+    <script src="bower_components/aos/dist/aos.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

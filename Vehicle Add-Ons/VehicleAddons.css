@@ -1,0 +1,81 @@
+.bg{
+    background: #000000;
+    background: -moz-linear-gradient(-45deg, #000000 0%, #323232 46%, #8B8B8B 100%);
+    background: -webkit-linear-gradient(-45deg, #000000 0%, #323232 46%, #8B8B8B 100%);
+    background: linear-gradient(135deg, #000000 0%, #323232 46%, #8B8B8B 100%);
+}
+
+.cardbg{
+    background: #DED3E5;
+    background: -moz-linear-gradient(45deg, #DED3E5 0%, #989898 51%, #B7B7B7 100%);
+    background: -webkit-linear-gradient(45deg, #DED3E5 0%, #989898 51%, #B7B7B7 100%);
+    background: linear-gradient(45deg, #DED3E5 0%, #989898 51%, #B7B7B7 100%);
+}
+
+
+
+/* .shadow{
+    -webkit-box-shadow: -2px 13px 15px 8px rgba(190,190,190,0.76); 
+    box-shadow: -2px 13px 15px 8px rgba(190,190,190,0.76);
+} */
+.form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    background-color: blue;
+}
+
+.Cards {
+    background-color: #ffffff;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    padding: 30px;
+}
+
+.NewComp {
+    margin-top: 30px;
+}
+
+.BackImage {
+    background-image: url('https://media.istockphoto.com/photos/beautiful-shiny-diamond-in-brilliant-cut-on-black-background-diamond-picture-id1336275187?k=20&m=1336275187&s=612x612&w=0&h=t9Y7hyxXfBcW0cX6Ev_Fv_exD_cbKNyXjDQBAQhpZIw=');
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    /* padding-bottom: 40px; */
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: white;
+    color: rgb(17, 16, 16);
+    cursor: pointer;
+    padding:2px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    content: "\f106";
+    color: rgba(156, 177, 179, 0.973);
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+
+  @media screen and (max-width: 990px) {
+    .res {
+        height: 200px;
+        width: 50%;
+        border-radius: 20px;
+    }
+  }

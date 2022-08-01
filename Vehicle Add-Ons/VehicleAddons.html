@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+        <!-- For AOS transformations -->
+    <link rel="stylesheet" href="bower_components/aos/dist/aos.css">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/d58e49b8e9.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--Custom CSS-->
+    <link href="VehicleAddons.css" rel="stylesheet" />
+    <title>Vehicle Add-Ons</title>
+  </head>
+
+  <body class="bg">
+    <div class="BackImage">
+      <h1 style="color: white; text-align: center; padding-top: 40px">
+        RESERVATION
+      </h1>
+      <div class="row justify-content-center" style="padding: 20px">
+        <div
+        data-tilt data-tilt-max="20" data-tilt-speed="400" data-tilt-perspective="500" class="col-md-3"
+          style="
+            background-color: rgb(204, 116, 116);
+            margin: 20px;
+            padding: 20px;
+            border-radius: 12px;
+          "
+        >
+          <h3>Your itinerary</h3>
+          <h6 style="font-weight: bold">PICK UP</h6>
+          <p>1248 W Gray St, Houston, TX 77019, USA</p>
+          <p>July 15, 2022 14:48</p>
+          <h6 style="font-weight: bold">Drop Date</h6>
+          <p>1248 W Gray St, Houston, TX 77019, USA</p>
+          <p>August 16, 2022 00:00</p>
+        </div>
+        <div
+        data-tilt data-tilt-max="20" data-tilt-speed="400" data-tilt-perspective="500" class="col-md-3"
+          style="
+            background-color: #fff;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 12px;
+          "
+        >
+          <h3>Select Vehicles</h3>
+          <h6 style="font-weight: bold">Type</h6>
+          <p>--</p>
+          <h6 style="font-weight: bold">Add Ons</h6>
+          <p>--</p>
+        </div>
+        <div
+        data-tilt data-tilt-max="20" data-tilt-speed="400" data-tilt-perspective="500" class="col-md-3"
+          style="
+            background-color: #fff;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 12px;
+          "
+        >
+          <h3>Reserve You Vehicle</h3>
+          <h6 style="font-weight: bold">Your Information</h6>
+          <p>--</p>
+          <h6 style="font-weight: bold">Payment Information</h6>
+          <p>--</p>
+        </div>
+      </div>
+    </div>
+    <div class="NewComp">
+      <div
+        style="
+          flex-direction: row;
+          justify-content: space-between;
+          display: flex;
+          margin-left: 30px;
+          margin-top: 100;
+        "
+      >
+        <h1 style="font-size: 16; font-weight: bold; color: #eee">
+          VEHICLE ADD-ONS
+        </h1>
+      </div>
+      <div
+        class="row"
+        style="
+          flex-direction: row;
+          justify-content: space-around;
+          display: flex;
+          margin-top: 0;
+        "
+      >
+        <div style="flex-direction: column" class="col-lg-6">
+          <div style="padding: 10px">
+            <div data-aos="fade-right" class="row Cards" style="border-radius: 14px;margin-left: 10px;">
+              <div  class="col-md-3">
+                <img data-tilt data-tilt-max="20" data-tilt-speed="400" data-tilt-perspective="500"
+                  src="https://arainglobal.com/wp-content/uploads/2021/10/Untitled-design-2021-10-29T164130.122.png"
+                  style="height: 100px; width: 100px"
+                />
+              </div>
+              <div class="col-md-8">
+                <h4>ADDITIONAL DRIVER 1</h4>
+                <button class="accordion">
+                    More Information <i class="fa-solid fa-angle-down"></i>
+                </button>
+                    <div class="panel">
+                        <p>15$ will be charged per additional driver</p>
+                    </div>
+                <!-- <p>15$ will be charged per additional driver</p> -->
+                <div class="buttons" style="float: right;">
+                    <button type="button" class="btn btn-outline-danger">
+                      Add
+                    </button>
+              </div>
+
+              </div>
+            </div>
+          </div>
+          <div style="padding: 10px">
+            <div data-aos="fade-right" class="row Cards" style="border-radius: 14px;margin-left: 10px;">
+              <div class="col-md-3">
+                <img data-tilt data-tilt-max="20" data-tilt-speed="400" data-tilt-perspective="500"
+                  src="https://arainglobal.com/wp-content/uploads/2021/10/Untitled-design-2021-10-29T164130.122.png"
+                  style="height: 100px; width: 100px"
+                />
+              </div>
+              <div class="col-md-8">
+                <h4>ADDITIONAL DRIVER 2</h4>
+                <button class="accordion">
+                    More Information <i class="fa-solid fa-angle-down"></i>
+                </button>
+                <div class="panel">
+                    <p>15$ will be charged per additional driver</p>
+                </div>
+                <div class="buttons" style="float: right;">
+                    <button type="button" class="btn btn-outline-danger">
+                      Add
+                    </button>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div style="padding: 10px">
+            <div data-aos="fade-right" class="row Cards" style="border-radius: 14px;margin-left: 10px;">
+              <div class="col-md-3">
+                <img data-tilt data-tilt-max="20" data-tilt-speed="400" data-tilt-perspective="500"
+                  src="https://arainglobal.com/wp-content/uploads/2021/10/Untitled-design-30.png"
+                  style="height: 100px; width: 100px"
+                />
+              </div>
+              <div class="col-md-8">
+                <h4>POST TRIP CLEANING</h4>
+                <button class="accordion">
+                    More Information <i class="fa-solid fa-angle-down"></i>
+                </button>
+                <div class="panel">
+                    <p>
+                        Return the car hassle free, without worrying about cleaning up
+                        after your trip. Does not cover upholstery cleaning, spills,
+                        stains, pet hair, or smoke removal. $55/trip
+                      </p>
+                </div>
+                <div class="buttons" style="float: right;">
+                    <button type="button" class="btn btn-outline-danger">
+                      Add
+                    </button>
+                  </div>
+
+              </div>
+            </div>
+          </div>
+          <div style="padding: 10px;">
+            <div data-aos="fade-right" class="row Cards" style="border-radius: 14px;margin-left: 10px;">
+              <div class="col-md-3">
+                <img data-tilt data-tilt-max="20" data-tilt-speed="400" data-tilt-perspective="500"
+                  src="https://arainglobal.com/wp-content/uploads/2021/10/Untitled-design-29.png"
+                  style="height: 100px; width: 100px"
+                />
+              </div>
+              <div class="col-md-8">
+                <h4>PREPAID REFUEL</h4>
+                <button class="accordion">
+                    More Information <i class="fa-solid fa-angle-down"></i>
+                </button>
+                <div class="panel">
+                    <p>
+                        Save time, make drop-off a breeze, and avoid additional fees
+                        by adding this Extra, which allows you to return my car at any
+                        fuel level. Price includes up to a full tank of gas. $60/trip
+                      </p>
+                </div>
+                <div class="buttons" style="float: right;">
+                    <button type="button" class="btn btn-outline-danger">
+                      Add
+                    </button>
+                  </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div data-aos="fade-left" class="detail col-lg-6 text-center">
+          <div
+            style="
+              background-color: #ffffff;
+              padding: 40px;
+              border-radius: 14px;
+              margin: 9px 29px;
+            "
+          >
+            <h3>Lamborghini Gallardo</h3>
+            <img class="res"
+              src="https://i.pinimg.com/originals/c5/72/90/c57290d0f0d7c7eed5c8844ca2de7bc9.jpg"
+              style="height: 200px; width: 70%; border-radius: 20px;"
+            />
+            <h3 style="margin: 10px">RATE</h3>
+            <!-- <div
+              style="
+                flex-direction: column;
+                justify-content: space-between;
+                display: flex;
+              "
+            >
+              <div
+                style="
+                  background-color: rgb(207, 207, 207);
+                  flex-direction: row;
+                  display: flex;
+                  justify-content: space-between;
+                  padding: 10px;
+                  margin-bottom: 5px;
+                "
+              >
+                <p>Quality</p>
+                <p>Rate</p>
+                <p>SubTotal</p>
+              </div>
+              <div
+                style="
+                  background-color: rgb(207, 207, 207);
+                  flex-direction: row;
+                  display: flex;
+                  justify-content: space-between;
+                  padding: 10px;
+                  margin-bottom: 5px;
+                "
+              >
+                <p>2 Days</p>
+                <p>$180</p>
+                <p>$180</p>
+              </div> -->
+              <div>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">Quality</th>
+                    <th scope="col">Rate</th>
+                    <th scope="col">SubTotal</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>2 Days</td>
+                    <td>$180</td>
+                    <td>$180</td>
+                  </tr>
+                  <tr>
+                    <td>Rental Charges Rate</td>
+                    <td></td>
+                    <td>$20</td>
+                  </tr>
+                </tbody>
+              </table>
+              </div>
+
+              <!-- <div
+                style="
+                  background-color: rgb(207, 207, 207);
+                  flex-direction: row;
+                  display: flex;
+                  justify-content: space-between;
+                  padding: 10px;
+                  margin-bottom: 5px;
+                "
+              >
+                <p>Rental Charges Rate</p>
+                <p>$20</p>
+              </div> -->
+            
+            <h3 style="margin-top: 20px">ADD-ONS</h3>
+            <!-- Start -->
+            <div>
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th scope="col">Quality</th>
+                      <th scope="col">Rate</th>
+                      <th scope="col">SubTotal</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Driver 1</td>
+                      <td>$30</td>
+                      <td>$30</td>
+                    </tr>
+                    <tr>
+                      <td>Driver 2</td>
+                      <td>$40</td>
+                      <td>$40</td>
+                    </tr>
+                    <tr>
+                      <td>Post Trip Cleaning</td>
+                      <td>$50</td>
+                      <td>$50</td>
+                    </tr>
+                    <tr>
+                      <td>Prepaid Refuel</td>
+                      <td>$60</td>
+                      <td>$60</td>
+                    </tr>
+                      <td>Addon Ones Charges Rate</td>
+                      <td></td>
+                      <td>$60</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            <!-- END -->
+            <!-- <div
+              style="
+                flex-direction: column;
+                justify-content: space-between;
+                display: flex;
+              "
+            >
+              <div
+                style="
+                  background-color: rgb(207, 207, 207);
+                  flex-direction: row;
+                  display: flex;
+                  justify-content: space-between;
+                  padding: 10px;
+                  margin-bottom: 5px;
+                "
+              >
+                <p>Quality</p>
+                <p>Rate</p>
+                <p>SubTotal</p>
+              </div>
+
+              <div
+                style="
+                  background-color: rgb(207, 207, 207);
+                  flex-direction: row;
+                  display: flex;
+                  justify-content: space-between;
+                  padding: 10px;
+                  margin-bottom: 5px;
+                "
+              >
+                <p>Driver 1</p>
+                <p>$30</p>
+                <p>$30</p>
+              </div>
+              <div
+                style="
+                  background-color: rgb(207, 207, 207);
+                  flex-direction: row;
+                  display: flex;
+                  justify-content: space-between;
+                  padding: 10px;
+                  margin-bottom: 5px;
+                "
+              >
+                <p>Driver 2</p>
+                <p>$40</p>
+                <p>$40</p>
+              </div>
+
+              <div
+                style="
+                  background-color: rgb(207, 207, 207);
+                  flex-direction: row;
+                  display: flex;
+                  justify-content: space-between;
+                  padding: 10px;
+                  margin-bottom: 5px;
+                "
+              >
+                <p>POST TRIP CLEANING</p>
+                <p>$50</p>
+                <p>$50</p>
+              </div>
+              <div
+                style="
+                  background-color: rgb(207, 207, 207);
+                  flex-direction: row;
+                  display: flex;
+                  justify-content: space-between;
+                  padding: 10px;
+                  margin-bottom: 5px;
+                "
+              >
+                <p>PREPAID REFUEL</p>
+                <p>$60</p>
+                <p>$60</p>
+              </div>
+              <div
+                style="
+                  background-color: rgb(207, 207, 207);
+                  flex-direction: row;
+                  display: flex;
+                  justify-content: space-between;
+                  padding: 10px;
+                  margin-bottom: 5px;
+                "
+              >
+                <p>Add-ons Charges Rate</p>
+                <p>$800</p>
+              </div>
+            </div> -->
+
+            <div
+              style="
+                flex-direction: column;
+                justify-content: space-between;
+                display: flex;
+              "
+            >
+              <h3 style="margin-top: 20px">TAXES & FEES</h3>
+              <!-- Start  -->
+              <div>
+                <table class="table table-striped">
+                  <tbody>
+                    <tr>
+                      <td>Tax</td>
+                      <td></td>
+                      <td>$200</td>
+                    </tr>
+                    <tr>
+                      <td>Admin Fee</td>
+                      <td></td>
+                      <td>$50</td>
+                    </tr>
+                    <tr>
+                      <td>Pickup Charges</td>
+                      <td></td>
+                      <td>$50</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!-- End -->
+
+              <div
+                style="
+                  background-color: rgb(207, 207, 207);
+                  flex-direction: row;
+                  display: flex;
+                  justify-content: space-between;
+                  padding: 10px;
+                  margin-bottom: 5px;
+                "
+              >
+                <!-- <p>Tax</p>
+                <p>$200</p>
+              </div>
+              <div
+                style="
+                  background-color: rgb(207, 207, 207);
+                  flex-direction: row;
+                  display: flex;
+                  justify-content: space-between;
+                  padding: 10px;
+                  margin-bottom: 5px;
+                "
+              >
+                <p>Admin Fee</p>
+                <p>$50</p>
+              </div>
+              <div
+                style="
+                  background-color: rgb(207, 207, 207);
+                  flex-direction: row;
+                  display: flex;
+                  justify-content: space-between;
+                  padding: 10px;
+                  margin-bottom: 5px;
+                "
+              >
+                <p>Pickup Charges</p>
+              </div>
+            </div>  -->
+
+            <!-- <div
+              style="
+                background-color: rgb(207, 207, 207);
+                flex-direction: row;
+                display: flex;
+                justify-content: space-between;
+                padding: 30px;
+                margin-bottom: 5px;
+              "
+            > -->
+              <p>Estimated total</p>
+              <p>$1200</p>
+            </div>
+            <button
+              onClick="{submit}"
+              type="button"
+              class="btn btn-danger btn-lg mt-5"
+            >
+              Continue
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+    </script>
+        <!-- For tilt -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.babel.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.babel.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    
+        <!-- For AOS tranformation -->
+        <script src="bower_components/aos/dist/aos.js"></script>
+        <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+  </body>
+</html>

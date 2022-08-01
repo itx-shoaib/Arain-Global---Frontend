@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/d58e49b8e9.js" crossorigin="anonymous"></script>
+    <!--Custom CSS-->
+    <link href="ReserveVehicle.css" rel="stylesheet">
+    <title>Reserve Vehicle</title>
+</head>
+
+<body>
+    <div class="scrolloff">
+        <div class="container-img">
+            <img style="width: 100%" src="https://images.unsplash.com/photo-1485291571150-772bcfc10da5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YmxhY2slMjBjYXJ8ZW58MHx8MHx8&w=1000&q=80" />
+        </div>
+        <form>
+            <div style="margin-top: 40px; margin-bottom: 40px">
+            <h1 style="color: white; text-align: center; font-size: 24px;">
+                RESERVE YOUR VEHICLE
+            </h1>
+        </div>
+            <div class="form">
+                <div style="background-color: white; margin-top: 30">
+                    <div style="padding: 50px">
+                        <h3 style="font-weight: bold; font-size: 18px; margin-bottom: 20px;">PICK UP</h3>
+                        <div class="UpperCase">
+                            <label for="exampleFormControlSelect1" class="Labelstyling">
+                                PLACE TO PICK UP THE CAR*
+                            </label>
+                            <select class="form-control inputdesign" id="check">
+
+                                <option value="Austin Tx">Houston ,Texas</option>
+                            </select>
+                            <div>
+                                <div class="calander">
+                                    <label class="Labelstyling">DROP DATE/TIME*</label>
+                                    <div>
+                                        <input type="datetime-local" id="pickDate" value={data.pickDate}
+                                            style="width: 100%; padding: 7px;" class="inputdesign" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 style="margin-top: 20px; margin-bottom: 20px; font-weight: bold; font-size: 18px">RETURN</h3>
+                        <div class="LowerCase">
+                            <label for="exampleFormControlSelect1" class="Labelstyling">
+                                PLACE TO DROP THE CAR*
+                            </label>
+                            <select class="form-control inputdesign" id="drop">
+
+                                <option value="Austin Tx">Houston ,Texas </option>
+                            </select>
+                            <div>
+                                <div class="calander">
+                                    <label class="Labelstyling">DROP DATE/TIME*</label>
+                                    <div>
+                                        <input type="datetime-local" id="returnDate" style="width: 100%; padding: 7px;" class="inputdesign" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="text-align: center;">
+                        <button type="button" class="btn btn-danger btn-lg btn-block mt-5" style="width: 100%; font-weight: bold">
+                            Continue Reservation
+                        </button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
