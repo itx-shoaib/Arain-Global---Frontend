@@ -3,6 +3,7 @@
     background: -moz-linear-gradient(-45deg, #000000 0%, #323232 46%, #8B8B8B 100%);
     background: -webkit-linear-gradient(-45deg, #000000 0%, #323232 46%, #8B8B8B 100%);
     background: linear-gradient(135deg, #000000 0%, #323232 46%, #8B8B8B 100%);
+    margin: 0px;
 }
 
 .BackImage {
@@ -13,3 +14,32 @@
     overflow: hidden;
     /* padding-bottom: 40px; */
 }
+
+@media (max-width: 1319px) {
+    .resDetail {
+      width: 50% !important;
+      margin: 20px !important;
+    }
+
+  }
+
+@media (max-width: 767px) {
+    .resDetail {
+      width: 88% !important;
+      margin: 40px !important;
+    }
+    .ConfirmBtn{
+        margin-left: 80px !important;
+    }
+  }
+
+  @media (max-width: 548px) {
+    .resDetail {
+      width: 80% !important;
+      padding: 16px !important;
+      margin: 40px !important;
+    }
+    .ConfirmBtn{
+        margin-left: 10px !important;
+    }
+  }
