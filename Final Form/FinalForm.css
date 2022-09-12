@@ -20,6 +20,10 @@
       width: 50% !important;
       margin: 20px !important;
     }
+    img{
+        width: 100% !important;
+        height: auto !important;
+    }
 
   }
 
@@ -31,6 +35,7 @@
     .ConfirmBtn{
         margin-left: 80px !important;
     }
+
   }
 
   @media (max-width: 548px) {
@@ -41,5 +46,10 @@
     }
     .ConfirmBtn{
         margin-left: 10px !important;
+    }
+
+    img{
+        width: 100% !important;
+        height: auto !important;
     }
   }
