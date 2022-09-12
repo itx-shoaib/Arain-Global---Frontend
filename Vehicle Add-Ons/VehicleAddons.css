@@ -35,6 +35,7 @@
 
 .NewComp {
     margin-top: 30px;
+    overflow-x: hidden;
 }
 
 .BackImage {
@@ -42,6 +43,7 @@
     background-size: cover;
     height: 100%;
     width: 100%;
+    overflow-x: hidden;
     /* padding-bottom: 40px; */
 }
 
@@ -77,5 +79,11 @@
         height: 200px;
         width: 50%;
         border-radius: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .Cards {
+        margin-left: 0px !important;
     }
   }
