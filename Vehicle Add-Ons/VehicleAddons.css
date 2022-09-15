@@ -74,6 +74,12 @@
     overflow: hidden;
   }
 
+  @media(max-width:465px){
+    .resTable{
+        padding: 0px !important;
+    }
+  }
+
   @media screen and (max-width: 990px) {
     .res {
         height: 200px;

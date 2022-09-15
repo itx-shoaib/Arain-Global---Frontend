@@ -24,7 +24,7 @@
 }
 
 .UpperCase {
-    border: 1px solid red;
+    border: 1px solid orange;
     border-width: 3px;
     padding: 30px;
     background-color: white;
@@ -40,7 +40,7 @@
 }
 
 .LowerCase {
-    border: 1px solid red;
+    border: 1px solid orange;
     border-width: 3px;
     padding: 30px;
     background-color: white;
